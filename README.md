@@ -13,9 +13,12 @@ bad=sample.bad
 data=sample.dat
 direct=true
 ```
+- Run command to execute SQL*Loader job
+```bash
+sqlldr parfile=sample.par
+```
 
 - Option 2: Run a directly command use `sqlldr` to including all parameters
-
 ```bash
 sqlldr username@server/password control=loader.ctl
 ```
