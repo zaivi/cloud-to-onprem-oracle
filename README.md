@@ -13,7 +13,7 @@ bad=sample.bad
 data=sample.dat
 direct=true
 ```
-- Run command to execute SQL*Loader job
+  - Run command to execute SQL*Loader job
 ```bash
 sqlldr parfile=sample.par
 ```
